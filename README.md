@@ -4,7 +4,7 @@ An Android app for travel experience recording and sharing.
 
 
 ### Overview
-In this app, users'll be able to upload their travel information (pictures, itinerary， travel notes, etc.) 
+In this app, users'll be able to upload their travel information (pictures, itinerary，travel notes, etc.) 
 and read feeds from each other. Users can manage their travel history through this app so that
 these places will always be refreshed in their memory. 
 
