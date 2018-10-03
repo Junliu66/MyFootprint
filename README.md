@@ -30,4 +30,7 @@ store users' favorite place
 <img width="327" alt="screen shot 2018-10-02 at 10 27 14 pm" src="https://user-images.githubusercontent.com/20180772/46400305-f0b80100-c6ae-11e8-91b6-cf812e3bde82.png">
 
 
+## EAT WELL AND TRAVEL OFTEN ! :D
+
+
 
