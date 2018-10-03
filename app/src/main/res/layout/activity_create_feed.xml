@@ -7,15 +7,22 @@
     tools:context="com.example.junliuzhang.myfootprint.CreateFeedActivity">
 
     <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/flower" />
+
+    <ImageView
         android:id="@+id/createFeedImageView"
         android:layout_width="200dp"
         android:layout_height="200dp"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="60dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@color/colorAccent" />
+        app:srcCompat="@color/common_google_signin_btn_text_dark_disabled" />
 
     <Button
         android:id="@+id/chooseImageButton"
@@ -37,6 +44,7 @@
         android:ems="10"
         android:hint="Message"
         android:inputType="textPersonName"
+        android:background="#FFFFFF"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
@@ -46,7 +54,7 @@
         android:id="@+id/nextButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="30dp"
         android:onClick="nextClicked"
         android:text="Next"
         app:layout_constraintEnd_toEndOf="parent"

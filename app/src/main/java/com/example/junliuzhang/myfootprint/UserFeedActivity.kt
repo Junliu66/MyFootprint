@@ -5,10 +5,7 @@ import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.view.Menu
 import android.view.MenuItem
-import android.widget.AdapterView
-import android.widget.ArrayAdapter
-import android.widget.ListView
-import android.widget.Toast
+import android.widget.*
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.database.ChildEventListener
 import com.google.firebase.database.DataSnapshot
@@ -71,7 +68,12 @@ class UserFeedActivity : AppCompatActivity() {
         if (item?.itemId == R.id.createFeed) {
             val intent = Intent(this, CreateFeedActivity::class.java)
             startActivity(intent)
-
+        } else if (item?.itemId == R.id.yourLocation) {
+            val intent = Intent(this, GeoLocationActivity::class.java)
+            startActivity(intent)
+        } else if (item?.itemId == R.id.favoritePlaces){
+            val intent = Intent(this, SavedLocationsActivity::class.java)
+            startActivity(intent)
         } else if (item?.itemId == R.id.logout) {
             mAuth.signOut()
             finish()
